@@ -1,0 +1,47 @@
+//packages installed :
+EXPRESS, Dotenv, http-status-codes, nodemon, winston, 
+sequalize, mysql2(driver for sequalize),sequelize-cli
+
+note -
+1. sequelize-cli -> initiates sequelize project, should be declared in the 
+folder where all source code is present (in here src)
+inside src -> npx sequelize init
+It creates a models, migrations, seeders folder inside src and indide config folder config.json
+
+Setup : npm init -> Installing packages
+
+node --watch : automatically restarts application when files are changed
+or nodeman
+
+ npx nodemon src/index.js -> cmd starts nodemon
+
+ npx -> node package execute / executes npm
+
+
+
+
+# Routes :
+
+ 1.api based routes
+ app.get('/api/v1/blogs', ()=>{
+
+ });
+
+ 2. Non api based routes
+ app.get('/home');
+
+
+ # ORM 
+ Layer that connects Object Oriented Programming to relational data bases.
+ eg. Mangoose, Sequilize
+
+#Pushing code into git
+Create a new git repo manually
+then copy the http git status code
+
+then in cmd
+1. git add .
+2. git commit -m "commit msg"
+3. git remote add origin hhtp_status_code
+ git remote add origin https://github.com/ripper06/Base-Node-Project-Template.git
+ 4.  git push origin main/master
