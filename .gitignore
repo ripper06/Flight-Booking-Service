@@ -1,0 +1,5 @@
+//folders mentioned here will not be visible in our git repository
+
+node_modules
+.env
+combined.log

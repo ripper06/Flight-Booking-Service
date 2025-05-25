@@ -1,0 +1,16 @@
+{
+  "name": "base_nodejs_project_template",
+  "version": "1.0.0",
+  "description": "A basic starter boilerplate project for node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "author": "RANJAN",
+  "license": "ISC",
+  "dependencies": {
+    "http-status-codes": "^2.3.0",
+    "nodemon": "^3.1.9",
+    "winston": "^3.17.0"
+  }
+}
